@@ -1,0 +1,464 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.contaianer {
+    height: 100%;
+  
+}
+
+.contaianer .daftar {
+    width: 50%;
+    height: 150px;
+   
+}
+
+.contaianer .menudaftar {
+    float: left;
+    width: 800px;
+    height: 800px;
+   
+}
+
+.daftar h1{
+    margin-left: 80px;
+}
+
+.contaianer .daftar .tmbldaftar {
+    width: 600px;
+    height: 60px;
+    margin-left: 70px;
+    padding: 10px;
+    
+    
+}
+
+.garis {
+    font-size: 18px;
+    width: 550px;
+}
+.garis .garis1 {
+    width: 260px;
+    float: left;
+}
+.garis .garis2 {
+    width: 250px;
+    float: right;
+}
+
+ .fbk {
+    width: 250px;
+    height: 42px;
+    border: 1px solid;
+    border-radius: 50px;
+    float: left;
+}
+.fbk .fbnama {
+    font-size: 18px;
+    text-align: center;
+    width: auto;
+    height: 40px;
+   padding-top: 10px;
+    background-color: #3B5998;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.fbk .fbgambar {
+    height:  40px;
+    width: 40px;
+    float: left;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+   
+}
+.fbk img {
+    height: 30px;
+    width: 30px;
+   
+}
+
+
+.googlek {
+    width: 250px;
+    height: 42px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin-left: 300px;
+}
+.googlek .goolenama {
+    font-size: 18px;
+    text-align: center;
+    width: auto;
+    height: 40px;
+   padding-top: 10px;
+    background-color: #3C6DF1;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.googlek .googlegambar {
+    height:  40px;
+    width: 40px;
+    float: left;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+   
+}
+.googlek img {
+    height: 30px;
+    width: 30px;
+}
+
+.login {
+    margin-left:80px ;  
+   
+}
+
+.login .login1 {
+    width: 300px;
+    float: left;
+}
+.login1 a {
+    font-size: 20px;
+    margin-top: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right    ;
+}
+
+.login1 .punya {
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+
+}
+
+
+.login .login2 {
+    width: 400px;
+   
+    float: right;
+}
+
+
+
+
+.login p {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.login .inputlogin {
+    height: 30px;
+    width: 250px;
+    border-radius: 30px;
+    padding: 5px;
+   
+}
+
+
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 10px;
+  margin-top: -60px;
+  float: left;
+}
+
+.button-73:hover {
+  background-color: #0081FF;
+  box-shadow: #034576 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-widogin1togin1h: 500pxogin1) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+.namaweb {
+    width: 670px;
+    height: 900px;
+    float: right;
+    background: #0081FF;
+   
+}
+
+.namaweb img{
+    width: 200px;
+    height: 200px;
+    float: left ;
+ 
+}
+
+.lingkaran1{
+    width: 300px;
+    height: 300px;
+    background: #0081FF;
+    border-radius: 100%;
+    border: 1px solid #fff;
+   margin-top: -200px;
+    margin-left: 500px;
+}
+
+.lingkaran2{
+    width: 500px;
+    height: 500px;
+    background: #0081FF;
+    border-radius: 100%;
+    border: 1px solid #fff;
+   margin-top: -200px;
+    margin-left: 300px;
+}
+
+.lingkaran1 p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: -90px;
+    margin-left: 20px;
+  
+}
+
+.tulisan {
+    height: 200px;
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 50px;
+    float: left;
+   
+}
+.tulisan .tulisan1 {
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+    
+}
+.namaweb p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: -5px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    color: #000;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -65px;
+  }
+  
+  #message p {
+    font-size: 10px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -1;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -1;
+    content: "✖";
+    
+  }
+
+
+  /* capchay */
+
+
+ 
+.login2{
+	background: #fff;
+	width: 450px;
+  height: 800px;
+
+    
+}
+ 
+.login2 p{
+    font: optional;
+}
+.login2 table tr td{
+	padding-top: 5px;
+}
+ 
+.login2 table tr td input{
+	padding-top: 5px;
+	font-size: 12pt;
+}
+
+
+.login2 input {
+ width: 100px;
+}
+
+* { box-sizing:border-box; }
+
+.container2		{ 
+  font-family:'Roboto';
+  width:300px; 
+  margin-top: 50px;
+  display:block; 
+  background:#FFF;
+ 
+  
+ 
+}
+h2 		 { 
+  text-align:center; 
+  margin-bottom:50px; 
+}
+h2 small { 
+  font-weight:normal; 
+  color:#888; 
+  display:block; 
+}
+.footer 	{ text-align:center; }
+.footer a  { color:#53B2C8; }
+
+/* form starting stylings ------------------------------- */
+.group 			  { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:350px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:50%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}

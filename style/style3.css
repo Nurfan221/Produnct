@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    
+    background-color: #f8f8f8;
+}
+
+#bg-login{
+    display: flex;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.box-Login{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box-Login h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.input-control{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 8px 15px;
+    background-color: #c70039;
+    color: #fff;
+    cursor: pointer;
+}
+
+header{
+    border: 1px solid;
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+font: italic 1.2em "Fira Sans", serif;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header h1{
+    float: left;
+    margin-top: 23px;
+}
+
+header ul{
+    float:right;
+}
+
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    margin-top: 13px;
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
+
+.selection{
+    padding: 25px 0;
+    border: 1px solid;
+    
+}
+
+.box{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background:#0081FF;
+    color: #fff;
+    bottom: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+ .isi{
+     padding: 50px;
+     box-sizing: border-box;
+     width: 100vh;
+     display: inline-block;
+     
+     
+ }
+.isi .tabel1{
+     box-shadow: 2px 2px 2px gray;
+     padding: 10px;
+     border: 1px solid black;
+     width: 25%;
+     height: auto;
+     background-color: salmon;
+     margin: 10px 15px 10px 15px ;
+ 
+ }
+ .isi .tabel2{
+    box-shadow: 2px 2px 2px gray;
+    padding: 10px;
+    border: 1px solid black;
+    width: 25%;
+    height: auto;
+    margin-left: 40%;
+    margin-top: -284px;
+    background-color: salmon;
+ 
+}
+.isi .tabel3{
+    box-shadow: 2px 2px 2px gray;
+    padding: 10px;
+    border: 1px solid black;
+    width: 25%;
+    height: auto;
+    margin-left: 77%;
+    margin-top: -272px;
+    background-color: salmon;
+    
+   
+}
+.isi .tabel4{
+    box-shadow: 2px 2px 2px gray;
+    padding: 10px;
+    border: 1px solid black;
+    width: 25%;
+    height: auto;
+    background-color: salmon;
+    margin-left: 114%;
+    margin-top: -270px;
+   
+}.isi .tabel5{
+    box-shadow: 2px 2px 2px gray;
+    padding: 10px;
+    border: 1px solid black;
+    width: 25%;
+    height: auto;
+    margin-left: 150%;
+    margin-top: -267px;
+    background-color: salmon;
+   
+}
+
+.isi .tabel6{
+    box-shadow: 2px 2px 2px gray;
+     padding: 10px;
+     border: 1px solid black;
+     width: 25%;
+     height: auto;
+     background-color: salmon;
+     margin-left: 185%;
+     margin-top: -267px;
+  
+}
+
+.btn2{
+    padding: 8px 15px;
+    background-color: #c70039;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabel tr{
+    height: 30px;
+}
+
+.tabel tr td{
+    padding: 5px 10px;
+    padding: 5px 15px;
+    
+}
+
+tr th{
+    font-weight: normal;
+    
+}
+h3 {
+    font-weight: normal;
+}
+h4 {
+    font-weight: normal;
+}
+h5 {
+    font-weight: normal;
+}
+
+.img{
+      
+    margin: 5px 10px 5px 20px;
+}
+
+tbody tr td{
+    text-align: center;
+    
+}
+
+.search{
+    padding: 15px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.search input[type = text]{
+    width: 60%;
+    padding: 10px ;
+}
+
+.search input[type=submit]{
+    padding: 12px 15px;
+    background-color: #c70039;
+    color: #fff;
+    cursor: pointer;
+}
+.col-5:hover{
+    box-shadow: 0 0 3px #999;
+}
+.col-5{
+        width: 25%;
+        height: 400px;
+        border: 1px solid #ccc;
+        float: left;
+        padding: 10px ;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    
+}
+
+.col-5 img{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    display:block;
+     margin:auto;
+  
+}
+.col-5 .nama{
+    color: black;
+    font-size: 24px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font: italic 1.2em "Fira Sans", serif;
+}
+.col-5 .harga{
+    font-weight: bold;
+    color: #c70039;
+    float: right;
+}
+
+.col-2{
+    width: 50%;
+    min-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.col-2 p{
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.col-2 h3{
+    margin-bottom: 10px;
+    
+}
+.col-2 h4{
+    color: #c70039;
+}
+.col-2 img{
+    border: 1px solid #f9f9f9;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 400px;
+    width: 400px;
+}
+
+.bli{
+    margin: 5px 0 15px 0;
+}
+
+
+
+/* CSS */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  width: 140px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+    
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
